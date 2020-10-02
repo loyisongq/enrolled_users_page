@@ -1,0 +1,53 @@
+/* user display blocks*/
+.holder {
+	border: 1px solid #2f2f2f;
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.holder table.custom_userpicture_flag {
+    margin: 0 auto 25px auto;
+}
+
+/* Bottom right text */
+.name-block {
+    position: absolute;
+    background-color: #2f2f2f;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    left: 0;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/*hide additional image details*/
+.userpicture-additional {
+	display: none
+}
+
+/* pagination styles */
+#nav-list {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    background: #2f2f2f;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+#nav-list a {
+	padding: 0 3px;
+	color: #fff;
+	vertical-align: middle;
+}
+#nav-list a.active { 
+ background: #943b21;
+}
+#nav-list a:hover { 
+ background: #943b21;
+}
